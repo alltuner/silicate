@@ -1,0 +1,17 @@
+[package]
+name = "silicate"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "_silicate"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.28"
+silicon = { path = "vendor/silicon", default-features = false, features = ["anyhow"] }
+syntect = "5.2"
+image = { version = "0.24", default-features = false, features = ["png"] }
+
+[patch.crates-io]
+pathfinder_simd = { git = "https://github.com/servo/pathfinder", package = "pathfinder_simd" }

@@ -1,0 +1,33 @@
+/* Silicate brand colors — indigo/violet code-editor theme */
+
+:root {
+  /* Primary palette */
+  --silicon-indigo: #6366f1;
+  --silicon-violet: #8b5cf6;
+  --silicon-slate: #1e293b;
+  --silicon-light: #f1f5f9;
+
+  /* Material overrides — light mode */
+  --md-primary-fg-color: var(--silicon-indigo);
+  --md-primary-fg-color--light: #818cf8;
+  --md-primary-fg-color--dark: #4f46e5;
+  --md-accent-fg-color: var(--silicon-violet);
+}
+
+[data-md-color-scheme="slate"] {
+  /* Material overrides — dark mode */
+  --md-primary-fg-color: #818cf8;
+  --md-primary-fg-color--light: #a5b4fc;
+  --md-primary-fg-color--dark: #6366f1;
+  --md-accent-fg-color: #a78bfa;
+}
+
+/* Code block styling */
+.md-typeset code {
+  border-radius: 4px;
+}
+
+/* Navigation tab highlight */
+.md-tabs__link--active {
+  border-bottom: 2px solid var(--md-accent-fg-color);
+}

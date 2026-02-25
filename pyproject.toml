@@ -1,0 +1,44 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "silicate"
+version = "0.1.0"
+description = "Silicate — Python bindings for Silicon's renderer"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "David Poblador i Garcia", email = "david@poblador.com" }
+]
+requires-python = ">=3.9"
+keywords = ["code", "image", "screenshot", "syntax-highlighting", "silicon", "rust"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/alltuner/silicate"
+Documentation = "https://silicate.alltuner.com"
+Repository = "https://github.com/alltuner/silicate"
+Issues = "https://github.com/alltuner/silicate/issues"
+
+[dependency-groups]
+dev = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.3",
+    "prek>=0.3.3",
+    "ruff>=0.15.2",
+]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+python-source = "python"
+module-name = "silicate._silicate"

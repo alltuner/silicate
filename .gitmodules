@@ -1,0 +1,3 @@
+[submodule "vendor/silicon"]
+	path = vendor/silicon
+	url = https://github.com/Aloxaf/silicon.git
