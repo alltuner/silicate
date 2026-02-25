@@ -48,6 +48,19 @@ for theme in silicate.list_themes():
 
 Available themes include: `1337`, `Coldark-Cold`, `Coldark-Dark`, `DarkNeon`, `Dracula`, `GitHub`, `Monokai Extended`, `Nord`, `OneHalfDark`, `OneHalfLight`, `Solarized (dark)`, `Solarized (light)`, `Sublime Snazzy`, `TwoDark`, `Visual Studio Dark+`, `gruvbox-dark`, `gruvbox-light`, `zenburn`, and more.
 
+Here's the same code rendered with different themes:
+
+<table>
+  <tr>
+    <td align="center"><strong>Dracula</strong><br><img src="assets/hero-example.png" width="400"></td>
+    <td align="center"><strong>Nord</strong><br><img src="assets/example-nord.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Monokai Extended</strong><br><img src="assets/example-monokai.png" width="400"></td>
+    <td align="center"><strong>GitHub</strong><br><img src="assets/example-github.png" width="400"></td>
+  </tr>
+</table>
+
 ### Languages
 
 ```python
@@ -162,3 +175,7 @@ silicate.to_file(
     pad_vert=80,
 )
 ```
+
+The code above produces:
+
+![Full example output](assets/example-nord.png)

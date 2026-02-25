@@ -18,6 +18,9 @@ def generate(
     shadow_blur_radius: float = 50.0,
     pad_horiz: int = 80,
     pad_vert: int = 100,
+    shadow_offset_x: int = 0,
+    shadow_offset_y: int = 0,
+    code_pad_right: int = 25,
     highlight_lines: list[int] | None = None,
     tab_width: int = 4,
     line_offset: int = 1,
@@ -44,6 +47,9 @@ Generate a code image and return raw PNG bytes.
 | `shadow_blur_radius` | `float` | `50.0` | Gaussian blur radius for shadow |
 | `pad_horiz` | `int` | `80` | Horizontal padding in pixels |
 | `pad_vert` | `int` | `100` | Vertical padding in pixels |
+| `shadow_offset_x` | `int` | `0` | Shadow offset in X axis |
+| `shadow_offset_y` | `int` | `0` | Shadow offset in Y axis |
+| `code_pad_right` | `int` | `25` | Padding to the right of the code in pixels |
 | `highlight_lines` | `list[int] \| None` | `None` | 1-based line numbers to highlight |
 | `tab_width` | `int` | `4` | Spaces per tab character |
 | `line_offset` | `int` | `1` | Starting line number |

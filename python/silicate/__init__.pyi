@@ -13,6 +13,9 @@ def generate(
     shadow_blur_radius: float = 50.0,
     pad_horiz: int = 80,
     pad_vert: int = 100,
+    shadow_offset_x: int = 0,
+    shadow_offset_y: int = 0,
+    code_pad_right: int = 25,
     highlight_lines: list[int] | None = None,
     tab_width: int = 4,
     line_offset: int = 1,
@@ -34,6 +37,9 @@ def generate(
         shadow_blur_radius: Gaussian blur radius for the shadow.
         pad_horiz: Horizontal padding in pixels.
         pad_vert: Vertical padding in pixels.
+        shadow_offset_x: Shadow offset in X axis.
+        shadow_offset_y: Shadow offset in Y axis.
+        code_pad_right: Padding to the right of the code in pixels.
         highlight_lines: List of 1-based line numbers to highlight.
         tab_width: Number of spaces per tab character.
         line_offset: Starting line number.
@@ -57,6 +63,9 @@ def to_file(
     shadow_blur_radius: float = 50.0,
     pad_horiz: int = 80,
     pad_vert: int = 100,
+    shadow_offset_x: int = 0,
+    shadow_offset_y: int = 0,
+    code_pad_right: int = 25,
     highlight_lines: list[int] | None = None,
     tab_width: int = 4,
     line_offset: int = 1,
@@ -81,6 +90,9 @@ def to_file(
         shadow_blur_radius: Gaussian blur radius for the shadow.
         pad_horiz: Horizontal padding in pixels.
         pad_vert: Vertical padding in pixels.
+        shadow_offset_x: Shadow offset in X axis.
+        shadow_offset_y: Shadow offset in Y axis.
+        code_pad_right: Padding to the right of the code in pixels.
         highlight_lines: List of 1-based line numbers to highlight.
         tab_width: Number of spaces per tab character.
         line_offset: Starting line number.

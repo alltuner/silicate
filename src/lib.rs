@@ -32,6 +32,9 @@ fn render(
     shadow_blur_radius: f32,
     pad_horiz: u32,
     pad_vert: u32,
+    shadow_offset_x: i32,
+    shadow_offset_y: i32,
+    code_pad_right: u32,
     highlight_lines: Option<Vec<u32>>,
     tab_width: u8,
     line_offset: u32,
@@ -72,7 +75,9 @@ fn render(
         .shadow_color(shadow)
         .blur_radius(shadow_blur_radius)
         .pad_horiz(pad_horiz)
-        .pad_vert(pad_vert);
+        .pad_vert(pad_vert)
+        .offset_x(shadow_offset_x)
+        .offset_y(shadow_offset_y);
 
     let font_spec = font.unwrap_or_else(|| vec![("Hack".to_string(), 26.0)]);
     let font_refs: Vec<(&str, f32)> = font_spec.iter().map(|(n, s)| (n.as_str(), *s)).collect();
@@ -88,6 +93,7 @@ fn render(
         .shadow_adder(shadow_adder)
         .highlight_lines(highlight_lines.unwrap_or_default())
         .tab_width(tab_width)
+        .code_pad_right(code_pad_right)
         .build()
         .map_err(|e| PyValueError::new_err(format!("Font error: {}", e)))?;
 
@@ -126,6 +132,9 @@ fn encode_png(image: &image::RgbaImage) -> PyResult<Vec<u8>> {
     shadow_blur_radius = 50.0,
     pad_horiz = 80,
     pad_vert = 100,
+    shadow_offset_x = 0,
+    shadow_offset_y = 0,
+    code_pad_right = 25,
     highlight_lines = None,
     tab_width = 4,
     line_offset = 1,
@@ -146,6 +155,9 @@ fn generate<'py>(
     shadow_blur_radius: f32,
     pad_horiz: u32,
     pad_vert: u32,
+    shadow_offset_x: i32,
+    shadow_offset_y: i32,
+    code_pad_right: u32,
     highlight_lines: Option<Vec<u32>>,
     tab_width: u8,
     line_offset: u32,
@@ -165,6 +177,9 @@ fn generate<'py>(
         shadow_blur_radius,
         pad_horiz,
         pad_vert,
+        shadow_offset_x,
+        shadow_offset_y,
+        code_pad_right,
         highlight_lines,
         tab_width,
         line_offset,
@@ -194,6 +209,9 @@ fn generate<'py>(
     shadow_blur_radius = 50.0,
     pad_horiz = 80,
     pad_vert = 100,
+    shadow_offset_x = 0,
+    shadow_offset_y = 0,
+    code_pad_right = 25,
     highlight_lines = None,
     tab_width = 4,
     line_offset = 1,
@@ -214,6 +232,9 @@ fn to_file(
     shadow_blur_radius: f32,
     pad_horiz: u32,
     pad_vert: u32,
+    shadow_offset_x: i32,
+    shadow_offset_y: i32,
+    code_pad_right: u32,
     highlight_lines: Option<Vec<u32>>,
     tab_width: u8,
     line_offset: u32,
@@ -233,6 +254,9 @@ fn to_file(
         shadow_blur_radius,
         pad_horiz,
         pad_vert,
+        shadow_offset_x,
+        shadow_offset_y,
+        code_pad_right,
         highlight_lines,
         tab_width,
         line_offset,
