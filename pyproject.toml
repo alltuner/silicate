@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "silicate"
-version = "0.1.1"
+version = "0.1.2"
 description = "Silicate — Python bindings for Silicon's renderer"
 readme = "README.md"
 license = "MIT"

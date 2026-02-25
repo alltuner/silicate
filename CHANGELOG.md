@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/alltuner/silicate/compare/v0.1.1...v0.1.2) (2026-02-25)
+
+
+### Bug Fixes
+
+* CI wheel builds and docs sidebar ([#3](https://github.com/alltuner/silicate/issues/3)) ([c7d34ec](https://github.com/alltuner/silicate/commit/c7d34ec28b21e5a8475361217ed4ab1dd358b407))
+
 ## [0.1.1](https://github.com/alltuner/silicate/compare/v0.1.0...v0.1.1) (2026-02-25)
 
 
