@@ -1,7 +1,7 @@
 site_name: Silicate
-site_description: Python bindings for Silicon's renderer
-site_url: https://silicate.alltuner.com
-site_author: David Poblador i Garcia
+site_url: https://silicate.alltuner.com/
+site_description: Python bindings for Silicon's renderer — create beautiful images of your source code, powered by Rust
+site_author: All Tuner Labs, S.L.
 
 repo_url: https://github.com/alltuner/silicate
 repo_name: alltuner/silicate
@@ -9,6 +9,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
@@ -29,8 +31,10 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
     - navigation.top
-    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
