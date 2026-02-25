@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/alltuner/silicate/compare/v0.1.2...v0.1.3) (2026-02-25)
+
+
+### Features
+
+* beautify docs, fix code_pad_right bug, add example images ([#5](https://github.com/alltuner/silicate/issues/5)) ([256d25f](https://github.com/alltuner/silicate/commit/256d25fdffe3cf8267d40af912ecb31fa8fac5a4))
+
 ## [0.1.2](https://github.com/alltuner/silicate/compare/v0.1.1...v0.1.2) (2026-02-25)
 
 
