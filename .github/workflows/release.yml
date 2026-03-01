@@ -78,7 +78,7 @@ jobs:
             yum install -y fontconfig-devel freetype-devel || true
 
       - name: Upload wheels
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: wheels-${{ matrix.target }}
           path: dist/
@@ -100,7 +100,7 @@ jobs:
           args: --out dist
 
       - name: Upload sdist
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: sdist
           path: dist/
@@ -115,7 +115,7 @@ jobs:
       url: https://pypi.org/project/silicate/
     steps:
       - name: Download all artifacts
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           path: dist/
           merge-multiple: true
