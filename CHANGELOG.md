@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/alltuner/silicate/compare/v0.1.3...v0.1.4) (2026-03-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update github artifact actions ([#9](https://github.com/alltuner/silicate/issues/9)) ([072926e](https://github.com/alltuner/silicate/commit/072926e3479d088616801a8aef6c45c9f733ff3f))
+
 ## [0.1.3](https://github.com/alltuner/silicate/compare/v0.1.2...v0.1.3) (2026-02-25)
 
 
