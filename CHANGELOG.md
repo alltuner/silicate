@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.5](https://github.com/alltuner/silicate/compare/v0.1.4...v0.1.5) (2026-04-01)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/configure-pages action to v6 ([#12](https://github.com/alltuner/silicate/issues/12)) ([c8577b6](https://github.com/alltuner/silicate/commit/c8577b6427ef758712c38dcb167486a50b83326a))
+* **deps:** update actions/deploy-pages action to v5 ([#13](https://github.com/alltuner/silicate/issues/13)) ([4db4e95](https://github.com/alltuner/silicate/commit/4db4e9502fdf75e1db6e13370b96297e40548dbd))
+
 ## [0.1.4](https://github.com/alltuner/silicate/compare/v0.1.3...v0.1.4) (2026-03-02)
 
 
