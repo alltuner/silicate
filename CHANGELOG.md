@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.6](https://github.com/alltuner/silicate/compare/v0.1.5...v0.1.6) (2026-05-03)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/upload-pages-artifact action to v5 ([#15](https://github.com/alltuner/silicate/issues/15)) ([5d6f018](https://github.com/alltuner/silicate/commit/5d6f018ddaef4604692c7eca91ad427acc87ca79))
+* **deps:** update astral-sh/setup-uv action to v8 ([#16](https://github.com/alltuner/silicate/issues/16)) ([e023541](https://github.com/alltuner/silicate/commit/e023541def9e7f7cc440332f168db4a66e4d1a6e))
+* **deps:** update googleapis/release-please-action action to v5 ([#17](https://github.com/alltuner/silicate/issues/17)) ([c4c026b](https://github.com/alltuner/silicate/commit/c4c026b0dea15b20d3a88ee2a7999cd4c7726e9c))
+
+
+### CI/CD Changes
+
+* allow revert as a conventional PR title type ([#22](https://github.com/alltuner/silicate/issues/22)) ([083ebe3](https://github.com/alltuner/silicate/commit/083ebe3c7a7229033bbbc51ed3a0f144c4157665))
+* validate PR titles as conventional commits ([#19](https://github.com/alltuner/silicate/issues/19)) ([2d366cd](https://github.com/alltuner/silicate/commit/2d366cde2a4dd6c576c8224f945d389e953988a4))
+
 ## [0.1.5](https://github.com/alltuner/silicate/compare/v0.1.4...v0.1.5) (2026-04-01)
 
 
