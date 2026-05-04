@@ -1,4 +1,6 @@
-<h1 align="center">Silicate</h1>
+<p align="center">
+  <img src="https://brand.alltuner.com/logos/silicate/horizontal.png" alt="Silicate" width="500">
+</p>
 
 <p align="center">
   <strong>Python bindings for <a href="https://github.com/Aloxaf/silicon">Silicon</a>'s renderer.</strong><br>
