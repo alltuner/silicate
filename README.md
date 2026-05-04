@@ -134,15 +134,15 @@ VIRTUAL_ENV=.venv uvx maturin develop
 uv run python -c "import silicate; print(silicate.list_themes())"
 ```
 
+## License
+
+[MIT](LICENSE)
+
 ## Support the project
 
 Silicate is an open source project built by [David Poblador i Garcia](https://davidpoblador.com/) through [All Tuner Labs](https://www.alltuner.com/).
 
 If this project was useful to you, [consider supporting its development](https://alltuner.com/sponsor).
-
-## License
-
-[MIT](LICENSE)
 
 ---
 
