@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/alltuner/silicate/compare/v0.1.6...v0.1.7) (2026-05-04)
+
+
+### Documentation Updates
+
+* standardize README to alltuner brand structure ([#23](https://github.com/alltuner/silicate/issues/23)) ([41a817a](https://github.com/alltuner/silicate/commit/41a817a131d9363a6d3fc10b28df07896c8866a2))
+
 ## [0.1.6](https://github.com/alltuner/silicate/compare/v0.1.5...v0.1.6) (2026-05-03)
 
 
