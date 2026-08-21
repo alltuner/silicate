@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.8](https://github.com/alltuner/silicate/compare/v0.1.7...v0.1.8) (2026-08-21)
+
+
+### Features
+
+* **site:** publish through the fleet's registry instead of GitHub Pages ([#30](https://github.com/alltuner/silicate/issues/30)) ([39769cf](https://github.com/alltuner/silicate/commit/39769cfc49ff58b7a56b73f2034e46453d360e2b))
+
+
+### Bug Fixes
+
+* satisfy ruff on the type stub and the export list ([#31](https://github.com/alltuner/silicate/issues/31)) ([963ee6b](https://github.com/alltuner/silicate/commit/963ee6bdf941f59d1cd5c26c23ff45ae9b7befdf))
+
+
+### Miscellaneous Chores
+
+* drop the GitHub Pages jobs from the release workflow ([#33](https://github.com/alltuner/silicate/issues/33)) ([0fba17c](https://github.com/alltuner/silicate/commit/0fba17c694046f37aa22dd7f03cafbdb31bb0991))
+
 ## [0.1.7](https://github.com/alltuner/silicate/compare/v0.1.6...v0.1.7) (2026-05-04)
 
 
