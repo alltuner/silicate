@@ -45,7 +45,6 @@ def generate(
         line_offset: Starting line number.
         line_pad: Padding between lines in pixels.
     """
-    ...
 
 def to_file(
     code: str,
@@ -98,12 +97,9 @@ def to_file(
         line_offset: Starting line number.
         line_pad: Padding between lines in pixels.
     """
-    ...
 
 def list_themes() -> list[str]:
     """Return a sorted list of available syntax highlighting theme names."""
-    ...
 
 def list_languages() -> list[tuple[str, list[str]]]:
     """Return a sorted list of available languages as (name, [extensions]) tuples."""
-    ...
