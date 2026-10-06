@@ -6,6 +6,8 @@ on:
 
 jobs:
   claude-review:
+    # The action refuses non-human actors, so bot PRs (Renovate, release-please) would always fail.
+    if: github.event.pull_request.user.type != 'Bot'
     runs-on: ubuntu-latest
     permissions:
       contents: read
