@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.1.8](https://github.com/alltuner/silicate/compare/v0.1.7...v0.1.8) (2026-10-06)
+
+
+### Features
+
+* **site:** publish through the fleet's registry instead of GitHub Pages ([#30](https://github.com/alltuner/silicate/issues/30)) ([39769cf](https://github.com/alltuner/silicate/commit/39769cfc49ff58b7a56b73f2034e46453d360e2b))
+
+
+### Bug Fixes
+
+* **deps:** update rust crate pyo3 to 0.29 ([#26](https://github.com/alltuner/silicate/issues/26)) ([4a8cec1](https://github.com/alltuner/silicate/commit/4a8cec19467f77ba1612ebbacd410c2e6e4920d7))
+* satisfy ruff on the type stub and the export list ([#31](https://github.com/alltuner/silicate/issues/31)) ([963ee6b](https://github.com/alltuner/silicate/commit/963ee6bdf941f59d1cd5c26c23ff45ae9b7befdf))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v7 ([#27](https://github.com/alltuner/silicate/issues/27)) ([8ed7d64](https://github.com/alltuner/silicate/commit/8ed7d645a7d5da92504c8dc6b3776bdfa0d62360))
+* **deps:** update astral-sh/setup-uv action to v10 ([#29](https://github.com/alltuner/silicate/issues/29)) ([3fdbf03](https://github.com/alltuner/silicate/commit/3fdbf03cd469718e4d2bcf0351d5dea26e2109c3))
+* drop the GitHub Pages jobs from the release workflow ([#33](https://github.com/alltuner/silicate/issues/33)) ([0fba17c](https://github.com/alltuner/silicate/commit/0fba17c694046f37aa22dd7f03cafbdb31bb0991))
+* refresh stale uv.lock ([#36](https://github.com/alltuner/silicate/issues/36)) ([b144a93](https://github.com/alltuner/silicate/commit/b144a93657269646e34a2e800824764fd7479ba6))
+* use hello@alltuner.com as author email ([#34](https://github.com/alltuner/silicate/issues/34)) ([296934c](https://github.com/alltuner/silicate/commit/296934cece2a2237023e3a27632e2f7cebde8d90))
+
+
+### CI/CD Changes
+
+* skip claude-review on bot PRs ([#35](https://github.com/alltuner/silicate/issues/35)) ([ccca14b](https://github.com/alltuner/silicate/commit/ccca14b7c6ba992a829539d63228bdbbbbe5e973))
+
 ## [0.1.7](https://github.com/alltuner/silicate/compare/v0.1.6...v0.1.7) (2026-05-04)
 
 
