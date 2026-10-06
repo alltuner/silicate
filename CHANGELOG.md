@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9](https://github.com/alltuner/silicate/compare/v0.1.8...v0.1.9) (2026-10-06)
+
+
+### Miscellaneous Chores
+
+* keep uv.lock version in sync on release ([#37](https://github.com/alltuner/silicate/issues/37)) ([aa87845](https://github.com/alltuner/silicate/commit/aa878456d022d71e80d5740cb922e23a57b00c20))
+
 ## [0.1.8](https://github.com/alltuner/silicate/compare/v0.1.7...v0.1.8) (2026-10-06)
 
 
