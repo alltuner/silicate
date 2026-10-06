@@ -8,7 +8,7 @@ name = "_silicate"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.28"
+pyo3 = "0.29"
 silicon = { path = "vendor/silicon", default-features = false, features = ["anyhow"] }
 syntect = "5.2"
 image = { version = "0.24", default-features = false, features = ["png"] }
