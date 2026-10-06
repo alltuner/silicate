@@ -9,7 +9,7 @@ description = "Silicate — Python bindings for Silicon's renderer"
 readme = "README.md"
 license = "MIT"
 authors = [
-    { name = "David Poblador i Garcia", email = "david@poblador.com" }
+    { name = "David Poblador i Garcia", email = "hello@alltuner.com" }
 ]
 requires-python = ">=3.9"
 keywords = [
