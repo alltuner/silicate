@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.10](https://github.com/alltuner/silicate/compare/v0.1.9...v0.1.10) (2026-10-07)
+
+
+### CI/CD Changes
+
+* review Renovate PRs with claude-review ([#39](https://github.com/alltuner/silicate/issues/39)) ([d4e9e6a](https://github.com/alltuner/silicate/commit/d4e9e6adedb82e686a123f1bdf2f3cbd09030f98))
+
 ## [0.1.9](https://github.com/alltuner/silicate/compare/v0.1.8...v0.1.9) (2026-10-06)
 
 
