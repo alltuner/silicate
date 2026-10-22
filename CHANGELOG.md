@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.11](https://github.com/alltuner/silicate/compare/v0.1.10...v0.1.11) (2026-10-22)
+
+
+### Documentation Updates
+
+* link the sponsor page by its trailing-slash URL ([#44](https://github.com/alltuner/silicate/issues/44)) ([0fe34d9](https://github.com/alltuner/silicate/commit/0fe34d991a2ba4882d5e66759ef85601c1f88a85))
+
 ## [0.1.10](https://github.com/alltuner/silicate/compare/v0.1.9...v0.1.10) (2026-10-07)
 
 
