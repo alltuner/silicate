@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.11](https://github.com/alltuner/silicate/compare/v0.1.10...v0.1.11) (2026-10-26)
+
+
+### Documentation Updates
+
+* link the sponsor page by its trailing-slash URL ([#44](https://github.com/alltuner/silicate/issues/44)) ([0fe34d9](https://github.com/alltuner/silicate/commit/0fe34d991a2ba4882d5e66759ef85601c1f88a85))
+
+
+### CI/CD Changes
+
+* build the docs with just site and deploy with Wrangler ([#46](https://github.com/alltuner/silicate/issues/46)) ([e697357](https://github.com/alltuner/silicate/commit/e6973576e278ce23dabc021b8f6942ef398a3117))
+
 ## [0.1.10](https://github.com/alltuner/silicate/compare/v0.1.9...v0.1.10) (2026-10-07)
 
 
